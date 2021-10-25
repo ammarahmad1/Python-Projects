@@ -12,9 +12,10 @@ Original file is located at
 import numpy as np
 class queue:
   def _init_(self):
-    self.np.list=[]
+    self.element=np.arrange(1)
   def enqueue():
-    self.np.append(data)
+    x=np.append(self.element,data)
+    return x
   def dequeue(self):
     self.np.list.pop
   def rear(self):
@@ -27,4 +28,6 @@ class queue:
     return len(self.np.list)
 
 q = queue()
+
+q.enqueue(12)
 
